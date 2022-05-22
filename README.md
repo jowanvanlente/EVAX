@@ -8,7 +8,7 @@ EVAX stands for everyday argumentative explanations and is a model-agnostic, pos
 
 EVAX takes as input a labeled dataset, a trained black box model and a threshold value τ_select that controls the size of the output. EVAX returns a set of predictions and a set of local explanations The explanations answer the question: “Why did the black box assign class c to input instance x?” These explanations are deployments of an AF that represent the behavior of the black box around a single datapoint in argumentative terms. This AF thus forms the basis for the explanations, and will, for every classified instance, be referred to as the local AF. The size of this local AF can be manually altered by τselect. EVAX adopts a model-agnostic approach since it only uses the classifier as an oracle that can be queried for predictions.
 
-The code uses datasets from the UCI machine learning repository (https://archive.ics.uci.edu/ml/index.php) and machine learning models from the scikit-learn library (https://scikit-learn.org/stable/). To test EVAX on the same datasets these should first be downloaded.
+The code uses datasets from the UCI machine learning repository (https://archive.ics.uci.edu/ml/index.php) and machine learning models from the scikit-learn library (https://scikit-learn.org/stable/). To test EVAX on the same datasets as in the thesis, the path in the get_dataset method that links to these datasets, should be altered such that it finds these datasets. The datasets (adult, mushroom, wine, and iris) are included in this repository.
 
 
 
