@@ -11,7 +11,7 @@ EVAX takes as input a labeled dataset, a trained black box model and a threshold
 
 
 
-Information on the thesis:
+Information about thesis:
 
 Title: Everyday argumentative explanations for AI
 
