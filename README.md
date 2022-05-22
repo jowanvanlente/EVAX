@@ -1,6 +1,6 @@
 # EVAX
 
-EVAX is an argumentative explanation method. It belongs to the AI master thesis by Jowan van Lente, Utrecht University.
+EVAX is an argumentative explanation method. It belongs to the AI master thesis by Jowan van Lente, Utrecht University (2022).
 
 
 EVAX stands for everyday argumentative explanations and is a model-agnostic, post-hoc method that computes argumentation framework (AF)-based explanations for decisions of ML classifiers. The explanations have contrastive, selected, and social characteristics; they include contrastive counterarguments, they consist of a fixed amount of arguments that can be selected based on a cognitive bias, and the size can be adjusted.
